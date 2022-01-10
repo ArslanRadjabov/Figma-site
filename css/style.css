@@ -56,7 +56,6 @@ body {
 .nick-name{
   font-size: 12px;
   font-weight: bold;
-  
 }
 .email-address{
   font-size: 9px;
@@ -137,17 +136,53 @@ body {
   z-index: 15;
   padding-left: 15px;
   color: #515151;
-  /* position: fixed; */
+  position: fixed;
   /* background-color: #fff; */
 }
 .list-item{
   display: flex;
   position: absolute;
   z-index: 100;
-  /* background-color: #000; */
+  top: 60px;
+  gap: 10px;
+  align-items: center;
+  font-size: 13px;
+}
+.drafts{
+  top: 90px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(201, 192, 192);
+  width: 200px;
+}
+.clock{
+  top: 150px;
+}
+.beta{
+  padding: 2px 4px;
+  background-color: rgb(99, 240, 63);
+  font-size: 11px;
+  color: #fff;
+  border-radius: 3px;
+  
+}
+.world{
+  border-bottom: 1px solid rgb(201, 192, 192);
+  padding-bottom: 20px;
+}
+.upgrade{
+  top: 220px;
+}
+.text-upgrade{
+  width: 170px;
+}
+.icon-arrow{
+  margin-left: 20px;
+}
+.icon-arrow:hover{
+  margin-left: 30px;
 }
 .text-par{
-  font-size: 50px;
+  font-size: 12px;
   color: #000;
 }
 .recent-viewed{
@@ -168,7 +203,6 @@ body {
   left: 28px;
   font-weight: 500;
 }
-
 .skill-section{
   position: fixed;
   top: 90px;
@@ -179,7 +213,6 @@ body {
   align-items: center;
   justify-content: center;
   padding-top: 30px;
-
 }
 .three-steps{
   display: flex;
